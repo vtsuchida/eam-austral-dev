@@ -1,0 +1,35 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "ui.s2p.mm.supplinvoice.manage.s1",
+  "id": "customer.mm.supplinvoice.manage.s1",
+  "namespace": "apps/ui.s2p.mm.supplinvoice.manage.s1/appVariants/customer.mm.supplinvoice.manage.s1/",
+  "version": "0.1.0",
+  "content": [
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n",
+        "bundleUrl": "i18n/i18n.properties",
+        "supportedLocales": [
+          ""
+        ],
+        "fallbackLocale": ""
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_setMinUI5Version",
+      "content": {
+        "minUI5Version": "1.120.23"
+      }
+    },
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    }
+  ]
+}

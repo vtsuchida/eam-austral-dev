@@ -1,0 +1,23 @@
+{
+  "changeType": "codeExt",
+  "reference": "customer.mm.supplinvoice.manage.s1",
+  "namespace": "apps/customer.mm.supplinvoice.manage.s1/changes/",
+  "projectId": "customer.mm.supplinvoice.manage.s1",
+  "moduleName": "customer/mm/supplinvoice/manage/s1/changes/coding/new_supplier_invoice_controller",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.120.23"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1754687901575_336_codeExt",
+  "content": {
+    "codeRef": "coding/new_supplier_invoice_controller.js"
+  },
+  "texts": {},
+  "selector": {
+    "controllerName": "ui.s2p.mm.supplinvoice.manage.s1.controller.S1"
+  },
+  "creation": "2025-08-08T21:18:24.802Z"
+}

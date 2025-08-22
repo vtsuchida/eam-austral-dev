@@ -1,0 +1,29 @@
+{
+  "fileName": "id_1754948015421_addNewModel",
+  "namespace": "apps/ui.s2p.mm.supplinvoice.manage.s1/appVariants/customer.mm.supplinvoice.manage.s1/changes",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "creation": "2025-08-11T21:33:35.421Z",
+  "packageName": "$TMP",
+  "reference": "customer.mm.supplinvoice.manage.s1",
+  "support": {
+    "generator": "@sap-ux/adp-tooling"
+  },
+  "changeType": "appdescr_ui5_addNewModel",
+  "content": {
+    "dataSource": {
+      "customer.ZOSMM_GW_FACTURA_PROVEEDOR_SRV": {
+        "uri": "/sap/opu/odata/sap/ZOSMM_GW_FACTURA_PROVEEDOR_SRV/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    },
+    "model": {
+      "customer.ZFacturaProveedorModel": {
+        "dataSource": "customer.ZOSMM_GW_FACTURA_PROVEEDOR_SRV"
+      }
+    }
+  }
+}
