@@ -1,0 +1,18 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core'
+                         xmlns='sap.m' 
+                         xmlns:smartform="sap.ui.comp.smartform"
+                         xmlns:smartfield="sap.ui.comp.smartfield">
+    <!--  add your xml here -->
+    <smartform:Group id="ZZ1_CUSTOM_FIELDS_GROUP" label="Custom Fields">
+        <smartform:GroupElement id="GE_ZZ1_PuertoAtencion_ORI">
+            <smartfield:SmartField id="SF_ZZ1_PuertoAtencion_ORI" value="{ZZ1_PuertoAtencion_ORI}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_MotivoPostergacion_ORI">
+            <smartfield:SmartField id="SF_ZZ1_MotivoPostergacion_ORI" value="{ZZ1_MotivoPostergacion_ORI}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_EstadoEmbarcacion_ORI">
+            <smartfield:SmartField id="SF_ZZ1_EstadoEmbarcacion_ORI" value="{ZZ1_EstadoEmbarcacion_ORI}"></smartfield:SmartField>
+        </smartform:GroupElement>
+    </smartform:Group>
+</core:FragmentDefinition>

@@ -1,0 +1,25 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core'
+                         xmlns='sap.m'
+                         xmlns:smartform="sap.ui.comp.smartform"
+                         xmlns:smartfield="sap.ui.comp.smartfield">
+    <!--  add your xml here -->
+    <smartform:Group id="ZZ1_OPERATION_CUSTOM_FIELDS_GROUP" label="Custom Fields">
+        <smartform:GroupElement id="GE_ZZ1_MotivoEliminacion_MOP">
+            <smartfield:SmartField id="SF_ZZ1_MotivoEliminacion_MOP"
+                value="{ZZ1_MotivoEliminacion_MOP}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_ProgramaVeda_MOP">
+            <smartfield:SmartField id="SF_ZZ1_ProgramaVeda_MOP" value="{ZZ1_ProgramaVeda_MOP}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_TipoCompra_MOP">
+            <smartfield:SmartField id="SF_ZZ1_TipoCompra_MOP" value="{ZZ1_TipoCompra_MOP}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_PorcAvanceReal_MOP">
+            <smartfield:SmartField id="SF_ZZ1_PorcAvanceReal_MOP" value="{ZZ1_PorcAvanceReal_MOP}"></smartfield:SmartField>
+        </smartform:GroupElement>
+        <smartform:GroupElement id="GE_ZZ1_Prioridad_MOP">
+            <smartfield:SmartField id="SF_ZZ1_Prioridad_MOP" value="{ZZ1_Prioridad_MOP}"></smartfield:SmartField>
+        </smartform:GroupElement>
+    </smartform:Group>
+</core:FragmentDefinition>

@@ -1,0 +1,30 @@
+{
+  "changeType": "addXML",
+  "reference": "customer.eam.order.manages1",
+  "namespace": "apps/customer.eam.order.manages1/changes/",
+  "creation": "2025-08-07T20:05:14.033Z",
+  "projectId": "customer.eam.order.manages1",
+  "packageName": "$TMP",
+  "moduleName": "customer/eam/order/manages1/changes/fragments/operation_custom_fields.fragment.xml",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.120.23",
+    "command": "addXML"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1754597109834_631_addXML",
+  "content": {
+    "targetAggregation": "groups",
+    "index": 5,
+    "fragmentPath": "fragments/operation_custom_fields.fragment.xml"
+  },
+  "texts": {},
+  "selector": {
+    "id": "i2d.eam.order.manages1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_ObjPgMaintOrderOperation--CF_OrderOp_GeneralInfo::Form",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}

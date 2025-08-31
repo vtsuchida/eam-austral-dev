@@ -1,0 +1,29 @@
+{
+  "fileName": "id_1754607880709_addNewModel",
+  "namespace": "apps/i2d.eam.order.manages1/appVariants/customer.eam.order.manages1/changes",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "creation": "2025-08-07T23:04:40.709Z",
+  "packageName": "$TMP",
+  "reference": "customer.eam.order.manages1",
+  "support": {
+    "generator": "@sap-ux/adp-tooling"
+  },
+  "changeType": "appdescr_ui5_addNewModel",
+  "content": {
+    "dataSource": {
+      "customer.ZOSDD_CONSTANTES_CDS": {
+        "uri": "/sap/opu/odata/sap/ZOSDD_CONSTANTES_CDS/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    },
+    "model": {
+      "customer.ZConstModel": {
+        "dataSource": "customer.ZOSDD_CONSTANTES_CDS"
+      }
+    }
+  }
+}
